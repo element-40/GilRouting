@@ -68,4 +68,12 @@ Menu labels may vary with the Dalamud version.
 
 GilRouting is a modified fork of **Gillionaire**. The original project and contributors retain attribution and copyright in their work. Changes to this fork include Dalamud API 15/.NET 10 compatibility, automated receiving, installment validation, sender-name validation, balance checks, and revised command names and messaging. The fork is maintained by **Element40**.
 
-The project metadata declares `AGPL-3.0-or-later`. Before publishing, include the **full AGPL-3.0 license text** (typically in a `LICENSE` file), preserve upstream copyright and legal notices, and provide the corresponding source for distributed binaries. Also add the original upstream repository URL and your new fork URL here once confirmed. This source archive does not include a copy of the license text, so that publication step is still required.
+## License
+
+GilRouting is licensed under the GNU Affero General Public
+License v3.0 or later (AGPL-3.0-or-later).
+
+See [LICENSE](LICENSE) for the complete license text.
+
+GilRouting is a fork of Gillionaire by voidstar0.
+Original copyright notices and attribution are retained.
