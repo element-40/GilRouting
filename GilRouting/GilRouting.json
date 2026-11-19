@@ -1,0 +1,11 @@
+{
+  "Author": "Element40",
+  "Name": "GilRouting",
+  "Punchline": "Trading Gil quickly because time is money.",
+  "Description": "Automate sending and receiving gil, including multi-trade transfers, using /gilsend and /gilreceive.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "gil",
+    "trade"
+  ]
+}

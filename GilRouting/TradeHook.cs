@@ -4,7 +4,7 @@ using FFXIVClientStructs.FFXIV.Client.UI.Agent;
 using GIllionaire;
 using FFXIVClientStructs.FFXIV.Component.GUI;
 
-namespace Gillionaire
+namespace GilRouting
 {
     using ReceiveEventDelegate = AgentInterface.Delegates.ReceiveEvent;
 
@@ -16,7 +16,7 @@ namespace Gillionaire
 
         public TradeHook()
         {
-            var agent = (AgentInterface*)Plugin.GameGui.FindAgentInterface("Trade");
+            var agent = (AgentInterface*)Plugin.GameGui.FindAgentInterface("Trade").Address;
             this.receiveEventHook = Plugin.GameInteropProvider.HookFromAddress<ReceiveEventDelegate>(
                 agent->VirtualTable->ReceiveEvent,
                 this.DetourRecieveEvent
