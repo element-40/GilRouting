@@ -1,0 +1,17 @@
+[
+  {
+    "Author": "Element40",
+    "Name": "GilRouting",
+    "InternalName": "GilRouting",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "Automates sending and receiving gil between characters, with amount verification and support for multi-trade transfers.",
+    "Punchline": "Automated gil transfers between characters.",
+    "RepoUrl": "https://github.com/element-40/GilRouting",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/element-40/GilRouting/releases/download/v1.0.0/GilRouting.zip",
+    "DownloadLinkUpdate": "https://github.com/element-40/GilRouting/releases/download/v1.0.0/GilRouting.zip"
+  }
+]
